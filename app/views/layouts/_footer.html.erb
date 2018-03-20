@@ -1,0 +1,13 @@
+<footer class="footer">
+  <small>
+    <%= t "about.the"%> <a href="<%= t "url_tut"%>"><%= t "rails_tut" %></a>
+    by <a href= <%= t "rails_tut" %>><%= t ".author" %></a>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t("about") ,   about_path %></li>
+      <li><%= link_to t("contact"), contact_path %></li>
+      <li><a href= <%= t "rails_tut" %> ><%= t ".news" %></a></li>
+    </ul>
+  </nav>
+</footer>

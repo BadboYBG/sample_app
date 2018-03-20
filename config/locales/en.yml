@@ -1,33 +1,36 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  name_app: "Sample app"
+  rails_tut: "Ruby on Rails Tutorial"
+  url_tut: "http://www.railstutorial.org/"
+  url_book: "http://www.railstutorial.org/book"
+  url_contact: "http://www.railstutorial.org/contact"
+  url_screen: "http://screencasts.railstutorial.org/"
+
+
+  static_pages:
+    home:
+      content1: "This is the home page for the"
+      content2: "sample application"
+
+    help:
+      title: "Help"
+      content1: "Get help on thr Ruby on Rails Tutorial at the "
+      content2: "Rails Tutorial help page"
+      url_help: "http://www.railstutorial.org/help"
+      content3: "To get help on this sample app, see the"
+
+    about:
+      title: "About"
+      screencast: "screencast series"
+      content1: "to teach web development with"
+      content2: " This is the sample application for the tutorial."
+      book: "book"
+      is_a: "is a "
+      the: "The"
+      and: "and"
+
+
+    contact:
+      title: "Contact"
+      content1: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      content2: "contact page"
