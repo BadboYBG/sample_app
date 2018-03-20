@@ -1,0 +1,11 @@
+<% provide :title, t("name_app") %>
+<div class="center jumbotron">
+  <h1><%= t ".welcome" %></h1>
+  <h2>
+    <%= t ".content1" %> <a href="<%= t "url_tut" %>"><%= t "rails_tut" %></a> <%= t ".content2"  %>
+  </h2>
+  <%= link_to t("sign_up"), signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails logo"), "http://rubyonrails.org/" %>
+
