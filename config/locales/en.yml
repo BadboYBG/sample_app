@@ -4,6 +4,7 @@ en:
   url_tut: "http://www.railstutorial.org/"
   url_book: "http://www.railstutorial.org/book"
   url_contact: "http://www.railstutorial.org/contact"
+  url_screen: "http://screencasts.railstutorial.org/"
 
   static_pages:
     home:
@@ -19,6 +20,13 @@ en:
 
     about:
       title: "About"
+      screencast: "screencast series"
+      content1: "to teach web development with"
+      content2: " This is the sample application for the tutorial."
+      book: "book"
+      is_a: "is a "
+      the: "The"
+      and: "and"
 
     contact:
       title: "Contact"
