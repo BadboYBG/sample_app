@@ -5,12 +5,18 @@ en:
   url_book: "http://www.railstutorial.org/book"
   url_contact: "http://www.railstutorial.org/contact"
   url_screen: "http://screencasts.railstutorial.org/"
-
+  home: "Home"
+  help: "Help"
+  about: "About"
+  contact: "Contact"
+  log_in: "Log in"
+  sign_up: "Sign up now!"
 
   static_pages:
     home:
       content1: "This is the home page for the"
       content2: "sample application"
+      welcome: "Welcome to the Sample App"
 
     help:
       title: "Help"
@@ -29,8 +35,16 @@ en:
       the: "The"
       and: "and"
 
-
     contact:
       title: "Contact"
       content1: "Contact the Ruby on Rails Tutorial about the sample app at the"
       content2: "contact page"
+
+    footer:
+      author: "Michael Hartl"
+      news: "News"
+
+  users:
+    new:
+      sign_up: "Sign up"
+      content1: "This will be a signup page for new users."
