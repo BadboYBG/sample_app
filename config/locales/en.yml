@@ -51,6 +51,8 @@ en:
       submit: "Create my account"
       success: "Create successfull user"
       confirmation: "Confirmation"
+      new_user: "New user"
+      danger: "Invalid email/password combination"
 
     index:
       not_found_user: "Not found User!"
@@ -58,3 +60,10 @@ en:
   error:
     er: "error"
     content1: " The form contains"
+
+  layouts:
+    _header:
+      users: "Users"
+      profile: "Profile"
+      settings: "Settings"
+      account: "Account"
