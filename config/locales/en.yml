@@ -67,3 +67,7 @@ en:
       profile: "Profile"
       settings: "Settings"
       account: "Account"
+
+  sessions:
+    new:
+      remember: "Remember me on this computer"
