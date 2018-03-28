@@ -2,4 +2,5 @@ maximum_name: 50
 maximum_email: 255
 minimum: 6
 size: 80
-page: 2
+size_img: 50
+page: 10

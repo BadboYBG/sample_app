@@ -8,7 +8,10 @@ class User < ApplicationRecord
     uniqueness: { case_sensitive: false }
 
   has_secure_password
-  validates :password, presence: true, length: { minimum: Settings.minimum }
+  validates :password, presence: true, length: { minimum: Settings.minimum },
+    allow_nil: true
+
+  scope :list_user, ->{select(:id, :name, :email)}
 
   def self.digest string
     cost = ActiveModel::SecurePassword.min_cost ? BCrypt::Engine::MIN_COST :
@@ -32,6 +35,10 @@ class User < ApplicationRecord
 
   def forget
     update_attribute :remember_digest, nil
+  end
+
+  def current_user? user
+    self == user
   end
 
 end
