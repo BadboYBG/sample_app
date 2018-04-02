@@ -1,0 +1,4 @@
+<h1><%= t "name_app" %></h1>
+<%= t "email.hi" %> <%= @user.name %> <%= t "email.welcome" %>
+<%= link_to t("email.activate"),
+  edit_account_activation_url(@user.activation_token, email: @user.email) %>

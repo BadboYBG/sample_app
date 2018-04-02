@@ -83,3 +83,15 @@ en:
   sessions:
     new:
       remember: "Remember me on this computer"
+
+  email:
+    account_activation: "Account Activation"
+    hi: "Hi"
+    welcome: "Welcome to the Sample App! Click on the link below to activate
+     your account:"
+    activate: "Activate"
+    check_email: "Please check your email activate your account."
+    not_activate: "Account not activated. "
+    check_link: "Check your email for the activation link."
+    invalid: "Invalid activation link"
+    activate: "Account activated"

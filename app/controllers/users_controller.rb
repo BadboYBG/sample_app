@@ -5,7 +5,7 @@ class UsersController < ApplicationController
   before_action :find_user, except: %i(new index create)
 
   def index
-    @users = User.list_user.page(params[:page]).per Settings.page
+    @users = User.list_user.activated.page(params[:page]).per Settings.page
   end
 
   def new
@@ -15,16 +15,16 @@ class UsersController < ApplicationController
   def show
     if @user.nil?
       flash[:danger] = t "users.index.not_found_user"
-      redirect_to users_url
+      redirect_to users_url and return unless FILL_IN
     end
   end
 
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = t ".success"
-      redirect_to @user
+      @user.send_activation_email
+      flash[:infor] = t "email.check_email"
+      redirect_to root_url
     else
       render :new
     end
