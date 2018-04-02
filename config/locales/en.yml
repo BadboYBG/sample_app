@@ -68,6 +68,7 @@ en:
       save: "Save changes"
       success: "Profile update"
       please: "Please log in."
+      update_password: "Update password"
 
   error:
     er: "error"
@@ -83,6 +84,8 @@ en:
   sessions:
     new:
       remember: "Remember me on this computer"
+      forgot_password: "Forgot password"
+
 
   email:
     account_activation: "Account Activation"
@@ -95,3 +98,14 @@ en:
     check_link: "Check your email for the activation link."
     invalid: "Invalid activation link"
     activate: "Account activated"
+    email_sent: "Email sent with password reset instructions"
+    email_not: "Email address nos found"
+    reset: "Password reset"
+    reset_text: "To reset your password click the link below:"
+    content_text: "This link will expire in two hours.
+      <br>If you did not request your password to be reset,
+      please ignore this email and
+      your password will stay as it is."
+    reset_password: "Reset Password"
+    empty: "can't be empty"
+    has_been_reset: "Password has been reset"
