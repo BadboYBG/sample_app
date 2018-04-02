@@ -56,10 +56,23 @@ en:
 
     index:
       not_found_user: "Not found User!"
+      all_users: "All users"
+      delete: "Delete"
+      you_sure: "You sure?"
+      user_delete: "User deleted"
+
+    edit:
+      edit: "Edit User"
+      update: "Update your profile"
+      change: "change"
+      save: "Save changes"
+      success: "Profile update"
+      please: "Please log in."
 
   error:
     er: "error"
     content1: " The form contains"
+    delete: "Error Delete!"
 
   layouts:
     _header:
